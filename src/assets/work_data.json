@@ -3,21 +3,21 @@
   {
     "work_no": "1",
     "work_name": "Portfolio",
-    "work_image": "../../assets/portfolio.png"
+    "work_image": "https://github.com/vimukthiaravinda/portfolio/blob/2e5d0d94ae865d31e3b850a873ecd198b5e9a1ed/src/assets/portfolio.png"
   },
   {
     "work_no": "2",
     "work_name": "Cimel Engineering",
-    "work_image": "../../assets/cimel.png"
+    "work_image": "https://github.com/vimukthiaravinda/portfolio/blob/2e5d0d94ae865d31e3b850a873ecd198b5e9a1ed/src/assets/cimel.png"
   },
   {
   "work_no": "3",
   "work_name": "Xess Global",
-  "work_image": "../../assets/xess.png"
+  "work_image": "https://github.com/vimukthiaravinda/portfolio/blob/2e5d0d94ae865d31e3b850a873ecd198b5e9a1ed/src/assets/xess.png"
   },
   {
     "work_no": "4",
     "work_name": "Leapy",
-    "work_image": "../../assets/leapy.png"
+    "work_image": "https://github.com/vimukthiaravinda/portfolio/blob/2e5d0d94ae865d31e3b850a873ecd198b5e9a1ed/src/assets/leapy.png"
   }
 ]
