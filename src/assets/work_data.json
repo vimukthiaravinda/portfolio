@@ -1,0 +1,23 @@
+
+[
+  {
+    "work_no": "1",
+    "work_name": "Portfolio",
+    "work_image": "src/assets/portfolio.png"
+  },
+  {
+    "work_no": "2",
+    "work_name": "Cimel Engineering",
+    "work_image": "src/assets/cimel.png"
+  },
+  {
+  "work_no": "3",
+  "work_name": "Xess Global",
+  "work_image": "src/assets/xess.png"
+  },
+  {
+    "work_no": "4",
+    "work_name": "Leapy",
+    "work_image": "src/assets/leapy.png"
+  }
+]

@@ -1,0 +1,108 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px ;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: white;
+    z-index: 100;
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 70px;
+    font-size: 20px;
+}
+
+.nav-connect{
+    cursor: pointer;
+    display: flex;
+    border-radius: 25px;
+    font-size: 22px;
+    padding: 10px 20px;
+    width: 150px;
+    margin-right: 170px;
+    justify-content: center;
+    border: none;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.60%);
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.nav-connect:active{
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+.navbar-head{
+    font-family: 'poppins', serif;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-left: 170px;
+}
+.anchor-link{
+    text-decoration: none;
+    color: black;
+}
+.anchor-link2{
+    text-decoration: none;
+    color: white;
+}
+.nav-mob-close{
+    display: none;
+}
+.nav-mob-open{
+    display: none;
+}
+@media (max-width: 1024px){
+    .navbar{
+        margin: 20px 30px;
+        position: static;
+    }
+    .nav-mob-open{
+        display: flex;
+        position: fixed;
+        right: 33px;
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 33px;
+        left: 290px;
+        width: 30px;
+    }
+    .navbar-nav{
+        position: fixed;
+        flex-direction: column;
+        background-color: white;
+        align-items: start;
+        top:0;
+        gap: 30px;
+        width: 350px;
+        height: 100%;
+        z-index: 99;
+        transition: right 0.3s;
+        right: -350px;
+    }
+    .navbar-nav li{
+        font-family: 'poppins', serif;
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+@media (max-width: 1801px) {
+    .nav-connect{
+        display: none;
+    }
+    .navbar-head{
+        margin-left:100px ;
+    }
+}

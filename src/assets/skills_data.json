@@ -1,0 +1,38 @@
+ [
+    {
+        "skill_no": "1",
+        "skill_name": "Spring Boot",
+        "skill_type": "Framework",
+        "skill_description": ""
+    },
+    {
+        "skill_no": "2",
+        "skill_name": ".Net 8.0",
+        "skill_type": "Framework",
+        "skill_description": ""
+    },
+    {
+        "skill_no": "3",
+        "skill_name": "Oracle Database",
+        "skill_type": "Database",
+        "skill_description": ""
+    },
+    {
+        "skill_no": "4",
+        "skill_name": "TensorFlow",
+        "skill_type": "AI Framework",
+        "skill_description": ""
+    },
+    {
+        "skill_no": "5",
+        "skill_name": ".Net MAUI",
+        "skill_type": "Cross platform Mobile application Framework",
+        "skill_description": ""
+    },
+    {
+        "skill_no": "6",
+        "skill_name": "Flask",
+        "skill_type": "Framework",
+        "skill_description": ""
+    }
+]
